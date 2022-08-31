@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AntojosApp</string>
+    <string name="correo">E-mail</string>
+    <string name="password">Password</string>
+    <string name="ingresar">Login</string>
+    <string name="recuperar"> Forgot password?</string>
+    <string name="registrar"> Create acount</string>
 </resources>
