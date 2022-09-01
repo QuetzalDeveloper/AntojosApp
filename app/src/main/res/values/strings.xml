@@ -1,8 +1,15 @@
 <resources>
     <string name="app_name">AntojosApp</string>
+    <!-- Inicio sesion -->
     <string name="correo">E-mail</string>
     <string name="password">Password</string>
     <string name="ingresar">Login</string>
-    <string name="recuperar"> Forgot password?</string>
-    <string name="registrar"> Create acount</string>
+    <string name="recuperar">Forgot password?</string>
+    <string name="registrar">Create acount</string>
+    <!--Registro de usuario-->
+    <string name="nombre">Name</string>
+    <string name="apellidos">Last name</string>
+    <string name="telefono">Phone number</string>
+    <string name="repite">Repeat password</string>
+    <string name="registrar_usuario">Create account</string>
 </resources>
