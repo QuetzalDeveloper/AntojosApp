@@ -1,4 +1,4 @@
-package com.mexico.quetzal.antojosapp.ui.home;
+package com.mexico.quetzal.antojosapp.ui.inicio;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,22 +10,22 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.mexico.quetzal.antojosapp.databinding.FragmentHomeBinding;
+import com.mexico.quetzal.antojosapp.databinding.FragmentoInicioBinding;
 
-public class HomeFragment extends Fragment {
+public class FragmentoInicio extends Fragment {
 
-    private FragmentHomeBinding binding;
+    private FragmentoInicioBinding binding;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        HomeViewModel homeViewModel =
-                new ViewModelProvider(this).get(HomeViewModel.class);
+        ViewModelInicio viewModelInicio =
+                new ViewModelProvider(this).get(ViewModelInicio.class);
 
-        binding = FragmentHomeBinding.inflate(inflater, container, false);
+        binding = FragmentoInicioBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textHome;
-        homeViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //final TextView textView = binding.textHome;
+        //viewModelInicio.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
