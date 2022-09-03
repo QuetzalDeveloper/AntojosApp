@@ -14,13 +14,15 @@
         android:theme="@style/Theme.AntojosApp"
         tools:targetApi="31">
         <activity
+            android:name=".ActivityPrincipal"
+            android:exported="false"
+            android:label="@string/title_activity_principal"
+            android:theme="@style/Theme.AntojosApp.NoActionBar" />
+        <activity
             android:name=".FragmentTercero"
             android:exported="false" />
         <activity
             android:name=".FragmentInicio"
-            android:exported="false" />
-        <activity
-            android:name=".Principal"
             android:exported="false" />
         <activity
             android:name=".UsuarioRegistro"

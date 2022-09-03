@@ -21,7 +21,7 @@ public class InicioSesion extends AppCompatActivity {
         iniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(getApplicationContext(), Principal.class);
+                Intent i = new Intent(getApplicationContext(), ActivityPrincipal.class);
                 startActivity(i);
             }
         });

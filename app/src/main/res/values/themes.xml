@@ -16,11 +16,14 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="Theme.AntojosApp.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+
     <style name="Theme.AntojosApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
     <style name="Theme.AntojosApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
     <style name="Theme.Borrar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
