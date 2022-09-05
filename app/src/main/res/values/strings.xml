@@ -29,6 +29,9 @@
     <string name="platillo">Name of the saucer</string>
     <string name="precio">$ 0.00</string>
 
+    <!-- Fragmento categorias -->
+    <string name="restaurante">Restaurant</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="navi">Hello blank fragment</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>

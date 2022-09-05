@@ -24,8 +24,8 @@ public class FragmentoCategoria extends Fragment {
         binding = FragmentoCategoriaBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
-        viewModelCategoria.getText().observe(getViewLifecycleOwner(), textView::setText);
+        //final TextView textView = binding.textGallery;
+        //viewModelCategoria.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
 
