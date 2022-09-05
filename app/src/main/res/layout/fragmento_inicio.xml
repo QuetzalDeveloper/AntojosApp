@@ -8,31 +8,45 @@
     tools:context=".ui.inicio.FragmentoInicio">
 
     <LinearLayout
+        android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="32dp"
         android:background="@color/wine"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-        
+
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginLeft="20dp"
             android:src="@drawable/pinmap_30"
-            app:tint="@color/white"
-            />
+            app:tint="@color/orange" />
 
         <com.google.android.material.textview.MaterialTextView
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
             android:text="@string/ubicacion"
             android:textColor="@color/white"
-            android:textSize="14sp"
-            android:gravity="center_vertical"/>
+            android:textSize="14sp" />
     </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recicler_inicio"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

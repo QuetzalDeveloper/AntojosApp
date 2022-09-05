@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/platillo_imagen"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginEnd="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/platillo_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:gravity="center_vertical"
+            android:text="@string/platillo"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/platillo_tipo"
+                android:layout_width="match_parent"
+                android:layout_height="28sp"
+                android:gravity="center_vertical"
+                android:text="@string/categoria"
+                android:textColor="@color/dark_gray"
+                android:textSize="18sp" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/platillo_precio"
+                android:layout_width="match_parent"
+                android:layout_height="30sp"
+                android:gravity="right"
+                android:text="@string/precio"
+                android:textColor="@color/wine"
+                android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
