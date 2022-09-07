@@ -31,6 +31,22 @@
 
     <!-- Fragmento categorias -->
     <string name="restaurante">Restaurant</string>
+    <string name="buffet">Buffet</string>
+    <string name="saludable">Healthy</string>
+    <string name="mariscos">Seafood</string>
+    <string name="cortes">Meat cuts</string>
+    <string name="callejera">Street food</string>
+    <string name="rapida">Fast food</string>
+    <string name="tematico">Theme restaurant</string>
+    <string name="regional">Regional</string>
+    <string name="asiatico">Asian</string>
+    <string name="europeo">European food</string>
+    <string name="sudamericano">South american</string>
+    <string name="africano"></string>
+    <string name="pizza">Pizza</string>
+    <string name="taquerias">Tacos</string>
+    <string name="bar">Bar and pub</string>
+    <string name="nocturno">Night</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="navi">Hello blank fragment</string>
